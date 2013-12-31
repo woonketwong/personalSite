@@ -544,7 +544,7 @@ article .inside {
 }
 /* Team and Contact */
 
-section#team, section#contact {
+section#team, section#blog, section#contact {
 	color: #e4e5e2;
 	background:#312A1E;
 }
