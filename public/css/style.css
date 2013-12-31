@@ -374,11 +374,12 @@ section.single-page h1 {
 }
 #feature article p {
 	font-family: 'Patua One', cursive;
-	font-size: 40px;
+	font-size: 30px;
 	margin-bottom: 0;
 	line-height: 1.35;
 	color: #fff;
 }
+
 /* Portfolio */
 
 section#portfolio {
@@ -544,15 +545,19 @@ article .inside {
 }
 /* Team and Contact */
 
-section#team, section#blog, section#contact {
+section#team, section#contact {
 	color: #e4e5e2;
 	background:#312A1E;
+}
+section#blog {
+	color: black;
+	background: white;
 }
 section#team .align, section#contact .align {
 	font-size: 6em;
 	text-align: center;
 }
-#team h1, #contact h1 {
+#team h1, #contact h1, #blog h1 {
 	font-size: 3em;
 	margin-bottom: 1em;
 	margin-top: 0.5em;
