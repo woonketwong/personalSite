@@ -79,6 +79,10 @@ input, button, select, textarea {
 */
 
 
+.testimonials_link{
+	color: #F1505A;
+  font-size: 0.65em;
+}
 
 p {
 	font-size: 1em; /* 16px */
@@ -1015,7 +1019,6 @@ footer p {
 	    
 		section#testimonials { /*display: none;*/
 }
-	
 		/* team */
 		
 		#team .team-thumb {
