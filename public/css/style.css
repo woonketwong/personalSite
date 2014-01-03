@@ -84,6 +84,14 @@ input, button, select, textarea {
   font-size: 0.65em;
 }
 
+#openSourceContribution li{
+	list-style-type: none;
+}
+
+.ulContainer{
+	width: 45%;
+	margin: 0 auto;
+}
 p {
 	font-size: 1em; /* 16px */
 	line-height: 1.5; /* 24px */
@@ -549,7 +557,7 @@ article .inside {
 }
 /* Team and Contact */
 
-section#team, section#contact {
+section#team, section#contact, section#openSourceContribution{
 	color: #e4e5e2;
 	background:#312A1E;
 }
@@ -557,16 +565,16 @@ section#blog {
 	color: black;
 	background: white;
 }
-section#team .align, section#contact .align {
+section#team .align, section#contact .align, section#openSourceContribution .align {
 	font-size: 6em;
 	text-align: center;
 }
-#team h1, #contact h1, #blog h1 {
+#team h1, #contact h1, #openSourceContribution h1, #blog h1 {
 	font-size: 3em;
 	margin-bottom: 1em;
 	margin-top: 0.5em;
 }
-#contact, #team {
+#contact, #team, #openSourceContribution {
 	padding-top: 4.75em;
 }
 #team {
